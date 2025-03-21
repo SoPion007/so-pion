@@ -1,0 +1,147 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>So Pion — Торговля одеждой</title>
+  <link rel="icon" type="image/png" href="favicon.png" />
+  <style>
+    :root {
+      --main-color: #81D8D0; /* Цвет Тиффани */
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f9f9f9;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: var(--main-color);
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 18px;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 30px 20px;
+      background: white;
+    }
+
+    section {
+      margin-bottom: 40px;
+    }
+
+    h2 {
+      font-size: 24px;
+      margin-bottom: 15px;
+      color: var(--main-color);
+      border-bottom: 1px solid #e0e0e0;
+      padding-bottom: 5px;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    ul li::before {
+      content: "✓ ";
+      color: var(--main-color);
+    }
+
+    .contact p, ul li {
+      font-size: 16px;
+      margin-bottom: 8px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      background: #eee;
+      margin-top: 40px;
+    }
+
+    a {
+      color: var(--main-color);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 28px;
+      }
+
+      main {
+        padding: 20px 15px;
+      }
+
+      h2 {
+        font-size: 20px;
+      }
+
+      .contact p {
+        font-size: 15px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>So Pion</h1>
+    <p>Современная торговля одеждой</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>О нас</h2>
+      <p>So Pion — стиль, доступность и качество. Мы предлагаем модную одежду для современных людей, следящих за трендами. Работаем с лучшими поставщиками, чтобы каждый наш клиент выглядел на все 100%.</p>
+    </section>
+
+    <section>
+      <h2>Услуги</h2>
+      <ul>
+        <li>Розничная продажа одежды</li>
+        <li>Оптовые поставки</li>
+        <li>Стилизация и подбор образов</li>
+        <li>Доставка по всей России</li>
+      </ul>
+    </section>
+
+    <section class="contact">
+      <h2>Контакты</h2>
+      <p>Телефон: <a href="tel:+79851424649">+7 985 142-46-49</a></p>
+      <p>Email: <a href="mailto:info@sopion.com">info@sopion.com</a></p>
+      <p>Telegram / Instagram: <a href="#">@sopion</a></p>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 So Pion. Все права защищены.
+  </footer>
+</body>
+</html>
